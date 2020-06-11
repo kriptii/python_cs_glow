@@ -20,7 +20,7 @@ dwLocalPlayer = int(GetdwLocalPlayer, 0)
 m_iTeamNum = (0xF4)
 GetdwGlowObjectManager = get_sig('Client.dll', rb'\xA1....\xA8\x01\x75\x4B', 4, 1)
 dwGlowObjectManager = int(GetdwGlowObjectManager, 0)
-m_iGlowIndex = (0xA428)
+m_iGlowIndex = (0xA438)
 
 def main():
     pm = pymem.Pymem("csgo.exe") #Application we are getting
