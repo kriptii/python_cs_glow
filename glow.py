@@ -1,7 +1,6 @@
 import pymem
 import pymem.process
 import keyboard
-from win32gui import GetWindowText, GetForegroundWindow
 import re
 
 def get_sig(modname, pattern, extra = 0, offset = 0, relative = True):
